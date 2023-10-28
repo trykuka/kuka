@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 64px;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    grid-gap: 0 69px;
+}
+nav ul li {list-style: none;}
+nav ul li a{
+    text-decoration: none;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+.header__botom {
+    display: flex;
+    grid-gap: 0 38px;
+    padding-top: 106px;
+}
+.info h1 {
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+.info p {
+    color: #000;
+    font-feature-settings: 'case' on;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.info button{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding:  17px 77px;
+    background-color: #000;
+    border: none;
+    outline: none;
+}
+.logo {
+    transition:all 0.8s;
+}
+.logo:hover {
+    transform:rotate(360deg)
+}
+nav ul li a {
+    transition: all 0.8s;
+}
+nav ul li a:hover {
+    color:rgb(77, 65, 88)
+}
+.info button {
+    transition: all 0.8;
+}
+.info button:hover{
+    opacity: 0.5;
+}
+.computer h2 {
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 100px;
+}
+.grid__container{
+    display:grid;
+    grid-gap: 0 42px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid__elm{
+    border: 1px solid #B1B1B1;
+    transition: all 0.8s;
+}
+.grid__elm:hover{
+    border: 1px solid #000;
+    box-shadow: inset 1px;
+}
+.gar h3{
+    color: #000;
+    font-family: Ubuntu;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+.grid__container1{
+    display:grid;
+    grid-gap: 0 22px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid__elm1{
+    border: 1px solid #B1B1B1;
+    transition: all 0.8s;
+}
+.grid__elm1:hover{
+    border: 1px solid #000;
+    box-shadow: inset 1px;
+}
